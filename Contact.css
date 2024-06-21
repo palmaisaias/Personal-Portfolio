@@ -1,0 +1,19 @@
+body {
+    background-color: aquamarine;
+}
+
+.mb-3 {
+    background-color: rgba(0, 0, 0, 0.559);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.form-label {
+    color: aliceblue;
+}
+
+.card:hover {
+    background-color: rgb(222, 158, 158);
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }

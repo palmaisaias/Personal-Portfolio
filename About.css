@@ -1,0 +1,29 @@
+h2, p, figcaption {
+    background-color: rgba(251, 206, 206, 0.894);
+    border-radius: 5px;
+}
+
+p:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+    color: rgb(0, 0, 0);
+    background-color: rgba(251, 206, 206, 0.894);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .rotating-image {
+    animation: rotate 30s linear infinite;
+    display: block;
+    margin: auto;
+    width: 150px;
+  }

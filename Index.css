@@ -1,0 +1,9 @@
+h3, p {
+    background-color: rgba(0, 0, 0, 0.419);
+    border-radius: 30px;
+}
+
+.carousel-caption h3:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+  }
